@@ -1,63 +1,87 @@
-Health Challenge Tracker
-A single-page application (SPA) built with Angular 14+ to track users' workouts, featuring search, filtering, pagination, and optional charts for progress visualization.
+# 🏋️ Health Challenge Tracker  
 
-🚀 Live Demo
-Health Challenge Tracker
+A single-page application (SPA) built with **Angular 14+** to track users' workouts, featuring search, filtering, pagination, and optional charts for progress visualization.
 
-📂 Repository
-GitHub Repository
+## 🚀 Live Demo  
+🔗 **[Health Challenge Tracker](https://health-challenge-tracker-nine.vercel.app/)**  
 
-📌 Features
-Add users with workout details (workout type & duration)
-Display workouts in a table grid
-Search users by name
-Filter workouts by type
-Pagination for better data handling
-Data persistence using localStorage
-Bonus: Workout progress visualization using charts 📊
-🛠️ Tech Stack
-Framework: Angular 14+
-UI Libraries: Angular Material, PrimeNG
-Styling: Tailwind CSS
-Data Storage: LocalStorage
-Chart Library: Chart.js (if implemented)
-🏗️ Project Setup
-Clone the repository
-sh
-Copy
-Edit
+## 📂 Repository  
+🔗 **[GitHub Repository](https://github.com/Ritul-Raj/Health-Challenge-Tracker)**  
+
+---
+
+## 📌 Features  
+
+✅ Add users with workout details (workout type & duration)  
+✅ Display workouts in a table grid  
+✅ Search users by name  
+✅ Filter workouts by type  
+✅ Pagination for better data handling  
+✅ Data persistence using `localStorage`  
+✅ **Bonus:** Workout progress visualization using charts 📊  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Framework:** Angular 14+  
+- **UI Libraries:** Angular Material, PrimeNG  
+- **Styling:** Tailwind CSS  
+- **Data Storage:** LocalStorage  
+- **Chart Library:** Chart.js (if implemented)  
+
+---
+
+## 🏗️ Project Setup  
+
+### 1️⃣ Clone the Repository  
+```sh
 git clone https://github.com/Ritul-Raj/Health-Challenge-Tracker.git
 cd Health-Challenge-Tracker
-Install dependencies
-sh
-Copy
-Edit
+```
+
+### 2️⃣ Install Dependencies  
+```sh
 npm install
-Run the application
-sh
-Copy
-Edit
+```
+
+### 3️⃣ Run the Application  
+```sh
 ng serve
-Open http://localhost:4200 in your browser.
-🧪 Testing
-Run unit tests
-sh
-Copy
-Edit
+```
+🔹 Open [http://localhost:4200](http://localhost:4200) in your browser.  
+
+---
+
+## 🧪 Testing  
+
+### ✅ Run Unit Tests  
+```sh
 ng test
-View code coverage report
-sh
-Copy
-Edit
+```
+
+### 📊 View Code Coverage Report  
+```sh
 ng test --code-coverage
-Coverage report is generated in the /coverage folder.
-📌 Assumptions
-Initial data contains 3 users with workouts.
-Pagination is applied when the user list exceeds 5.
-LocalStorage is used for data persistence.
-UI components are styled with Tailwind CSS.
-The app is deployed on Vercel.
-📝 To-Do (Future Enhancements)
-Implement authentication & user profiles.
-Allow workout deletion & editing.
-Enhance charts with more insights.
+```
+🔹 The coverage report is generated in the `/coverage` folder.  
+
+---
+
+---
+
+## 📌 Assumptions  
+
+- The initial dataset contains **3 users with workouts**.  
+- **Pagination** is applied when the user list exceeds **5 users**.  
+- Data is **persisted using LocalStorage**.  
+- **Tailwind CSS** is used for styling.  
+- The app is **deployed on Vercel**.  
+
+---
+
+
+
+
+
+

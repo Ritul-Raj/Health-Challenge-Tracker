@@ -1,70 +1,87 @@
 # 🏋️ Health Challenge Tracker  
 
-A single-page application (SPA) built with **Angular 14+** to track users' workouts, featuring search, filtering, pagination, and optional charts for progress visualization.
+A **Single Page Application (SPA)** built with **Angular 14+** that helps users track their workouts. The app allows users to add workouts, search and filter data, paginate the list, and visualize progress with charts.
+
+---
 
 ## 🚀 Live Demo  
 🔗 **[Health Challenge Tracker](https://health-challenge-tracker-nine.vercel.app/)**  
 
-## 📂 Repository  
+## 📂 GitHub Repository  
 🔗 **[GitHub Repository](https://github.com/Ritul-Raj/Health-Challenge-Tracker)**  
 
 ---
 
 ## 📌 Features  
 
-✅ Add users with workout details (workout type & duration)  
-✅ Display workouts in a table grid  
-✅ Search users by name  
-✅ Filter workouts by type  
-✅ Pagination for better data handling  
-✅ Data persistence using `localStorage`  
-✅ **Bonus:** Workout progress visualization using charts 📊  
+✅ **User Registration:** Add users along with workout details (workout type & duration).  
+✅ **Workout Tracking:** Displays workouts in a structured table grid.  
+✅ **Search Functionality:** Quickly search users by name.  
+✅ **Filter Workouts:** Filter workouts based on type.  
+✅ **Pagination:** Ensures a smooth experience for larger datasets (applies when users exceed 5).  
+✅ **Local Storage Persistence:** Stores data locally so that progress isn't lost on refresh.  
+✅ **Charts (Bonus Feature):** Displays users' workout progress visually using **Chart.js**.  
 
 ---
 
 ## 🛠️ Tech Stack  
 
-- **Framework:** Angular 14+  
-- **UI Libraries:** Angular Material, PrimeNG  
-- **Styling:** Tailwind CSS  
-- **Data Storage:** LocalStorage  
-- **Chart Library:** Chart.js (if implemented)  
+### **Frontend**  
+- **Angular 14+** - Framework for building the SPA  
+- **Angular Material** & **PrimeNG** - UI component libraries for enhanced user experience  
+- **Tailwind CSS** - Styling framework for responsive design  
+
+### **Data Handling**  
+- **LocalStorage** - Persists data on the browser  
+
+### **Visualization**  
+- **Chart.js** - For graphical representation of workout progress  
 
 ---
 
-## 🏗️ Project Setup  
+## 🏗️ Installation Guide  
 
-### 1️⃣ Clone the Repository  
+### **1️⃣ Clone the Repository**  
+Open your terminal and run:  
 ```sh
 git clone https://github.com/Ritul-Raj/Health-Challenge-Tracker.git
 cd Health-Challenge-Tracker
 ```
 
-### 2️⃣ Install Dependencies  
+### **2️⃣ Install Dependencies**  
+Run the following command to install required packages:  
 ```sh
 npm install
 ```
 
-### 3️⃣ Run the Application  
+### **3️⃣ Run the Application**  
+Start the development server with:  
 ```sh
 ng serve
 ```
-🔹 Open [http://localhost:4200](http://localhost:4200) in your browser.  
+Now, open **[http://localhost:4200](http://localhost:4200)** in your browser.
 
 ---
 
-## 🧪 Testing  
+## 📜 Usage Guide  
 
-### ✅ Run Unit Tests  
-```sh
-ng test
-```
+1️⃣ **Adding a Workout Entry:**  
+   - Enter the **User Name**  
+   - Select the **Workout Type**  
+   - Enter **Workout Minutes**  
+   - Click **"Add Workout"**  
 
-### 📊 View Code Coverage Report  
-```sh
-ng test --code-coverage
-```
-🔹 The coverage report is generated in the `/coverage` folder.  
+2️⃣ **Search for a User:**  
+   - Use the search bar to filter by user name  
+
+3️⃣ **Filter by Workout Type:**  
+   - Select a workout type from the dropdown filter  
+
+4️⃣ **Pagination:**  
+   - The list is paginated if there are more than 5 users  
+
+5️⃣ **View Progress with Charts (Optional Feature):**  
+   - Displays total minutes spent on different workout types  
 
 ---
 
@@ -72,16 +89,13 @@ ng test --code-coverage
 
 ## 📌 Assumptions  
 
-- The initial dataset contains **3 users with workouts**.  
-- **Pagination** is applied when the user list exceeds **5 users**.  
-- Data is **persisted using LocalStorage**.  
-- **Tailwind CSS** is used for styling.  
-- The app is **deployed on Vercel**.  
+✅ The app starts with **3 default users** to demonstrate functionality.  
+✅ **LocalStorage** is used to **persist data** across sessions.  
+✅ **Pagination is applied for lists with more than 5 users**.  
+✅ **Workout progress visualization (charts) is optional** and can be enabled if needed.  
+✅ **Tailwind CSS** is used for styling to maintain a clean and responsive UI.  
 
 ---
-
-
-
 
 
 

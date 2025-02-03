@@ -84,7 +84,17 @@ Now, open **[http://localhost:4200](http://localhost:4200)** in your browser.
    - Displays total minutes spent on different workout types  
 
 ---
+🧪 Testing
 
+✅ Run Unit Tests
+```sh
+ng test
+```
+📊 View Code Coverage Report
+```sh
+ng test --code-coverage
+```
+🔹 The coverage report will be generated inside the /coverage folder.
 ---
 
 ## 📌 Assumptions  

@@ -94,8 +94,7 @@ ng test
 ```sh
 ng test --code-coverage
 ```
-🔹 The coverage report will be generated inside the /coverage folder.
----
+
 
 ## 📌 Assumptions  
 
